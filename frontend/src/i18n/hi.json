@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "dashboard":            "डैशबोर्ड",
+    "crops":                "मेरी फसलें",
+    "diseaseDetection":     "रोग पहचान",
+    "cropRecommendation":   "फसल सुझाव",
+    "weather":              "मौसम",
+    "market":               "बाजार भाव",
+    "irrigation":           "सिंचाई",
+    "analytics":            "विश्लेषण",
+    "aiAssistant":          "AI सहायक",
+    "logout":               "लॉगआउट"
+  },
+  "auth": {
+    "login":                "लॉगिन",
+    "register":             "रजिस्टर",
+    "email":                "ईमेल",
+    "password":             "पासवर्ड",
+    "name":                 "पूरा नाम",
+    "phone":                "फोन नंबर",
+    "role":                 "मैं हूँ",
+    "loginBtn":             "लॉगिन करें",
+    "registerBtn":          "खाता बनाएं",
+    "noAccount":            "खाता नहीं है?",
+    "hasAccount":           "पहले से खाता है?",
+    "welcomeBack":          "वापस स्वागत है",
+    "joinKrishiVeda":       "कृषिवेद से जुड़ें"
+  },
+  "dashboard": {
+    "greeting":             "सुप्रभात",
+    "farmSummary":          "खेत सारांश",
+    "activeCrops":          "सक्रिय फसलें",
+    "recentDetections":     "हाल की जांच",
+    "weatherToday":         "आज का मौसम",
+    "marketPrices":         "बाजार भाव"
+  },
+  "common": {
+    "loading":              "लोड हो रहा है...",
+    "error":                "कुछ गलत हुआ",
+    "retry":                "फिर कोशिश करें",
+    "save":                 "सहेजें",
+    "cancel":               "रद्द करें",
+    "submit":               "जमा करें",
+    "back":                 "वापस",
+    "next":                 "आगे",
+    "viewAll":              "सभी देखें",
+    "noData":               "कोई डेटा उपलब्ध नहीं"
+  }
+}
