@@ -46,9 +46,10 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#0a150a] flex">
+    <div className="min-h-screen bg-gradient-to-br from-[#07140a] via-[#0b1c0f] to-[#102010] flex">
       {/* Left panel — illustration / brand */}
-      <div className="hidden lg:flex w-1/2 bg-[#0d1f0d] flex-col justify-between p-12 border-r border-[#1e3a1e]">
+      <div className="hidden lg:flex w-1/2 bg-[#0d1f0d] flex-col justify-center p-12 border-r border-[#1e3a1e]">
+      <div className="absolute top-8 left-8 flex items-center gap-2"></div>
         <div className="flex items-center gap-2">
           <div className="w-9 h-9 rounded-xl bg-[#639922] flex items-center justify-center">
             <Sprout size={20} color="white" />
@@ -57,10 +58,13 @@ const Login = () => {
         </div>
 
         <div>
-          <h2 className="text-white text-4xl font-bold leading-tight mb-4">
-            AI-powered farming<br />
-            <span className="text-[#639922]">for every Indian farmer.</span>
-          </h2>
+          <h2 className="text-white text-5xl xl:text-6xl font-bold leading-tight mb-6">
+  AI-powered farming
+  <br />
+  <span className="text-lime-400">
+    for every Indian farmer.
+  </span>
+</h2>
           <p className="text-[#5a7a3a] text-base leading-relaxed">
             Crop recommendations, disease detection, smart irrigation, and market
             insights — in Hindi and English.
@@ -68,11 +72,17 @@ const Login = () => {
           {/* Feature chips */}
           <div className="flex flex-wrap gap-2 mt-8">
             {['Crop Recommendation', 'Disease Detection', 'Market Prices', 'AI Assistant', 'Smart Irrigation'].map((f) => (
-              <span key={f} className="px-3 py-1.5 rounded-full border border-[#2a4a2a] text-[#8aab6a] text-xs font-medium">
+              <span key={f} className="px-3 py-1.5 rounded-full bg-green-900/20 border border-green-700/30 text-green-200 text-xs font-medium">
                 {f}
               </span>
             ))}
           </div>
+            {/* FARM IMAGE */}
+  <img
+    src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854"
+    alt="Farm"
+    className="mt-10 rounded-3xl shadow-2xl w-full max-w-lg object-cover h-64"
+  />
         </div>
 
         <p className="text-[#3a5a3a] text-xs">
@@ -90,7 +100,7 @@ const Login = () => {
           <span className="text-white font-bold text-xl">KrishiVeda</span>
         </div>
 
-        <div className="w-full max-w-sm">
+        <div className="w-full max-w-md bg-[#102010]/80 backdrop-blur-xl border border-green-800/40 rounded-3xl p-8 shadow-2xl">
           {/* Header */}
           <div className="mb-8">
             <h1 className="text-white text-2xl font-bold mb-1">
