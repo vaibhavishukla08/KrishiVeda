@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "dashboard":            "Dashboard",
+    "crops":                "My Crops",
+    "diseaseDetection":     "Disease Detection",
+    "cropRecommendation":   "Crop Recommendation",
+    "weather":              "Weather",
+    "market":               "Market Prices",
+    "irrigation":           "Irrigation",
+    "analytics":            "Analytics",
+    "aiAssistant":          "AI Assistant",
+    "logout":               "Logout"
+  },
+  "auth": {
+    "login":                "Login",
+    "register":             "Register",
+    "email":                "Email",
+    "password":             "Password",
+    "name":                 "Full Name",
+    "phone":                "Phone Number",
+    "role":                 "I am a",
+    "loginBtn":             "Login",
+    "registerBtn":          "Create Account",
+    "noAccount":            "Don't have an account?",
+    "hasAccount":           "Already have an account?",
+    "welcomeBack":          "Welcome back",
+    "joinKrishiVeda":       "Join KrishiVeda"
+  },
+  "dashboard": {
+    "greeting":             "Good morning",
+    "farmSummary":          "Farm Summary",
+    "activeCrops":          "Active Crops",
+    "recentDetections":     "Recent Detections",
+    "weatherToday":         "Today's Weather",
+    "marketPrices":         "Market Prices"
+  },
+  "common": {
+    "loading":              "Loading...",
+    "error":                "Something went wrong",
+    "retry":                "Try Again",
+    "save":                 "Save",
+    "cancel":               "Cancel",
+    "submit":               "Submit",
+    "back":                 "Back",
+    "next":                 "Next",
+    "viewAll":              "View All",
+    "noData":               "No data available"
+  }
+}
