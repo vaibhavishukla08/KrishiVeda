@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets — never commit real keys
+.env
+backend/.env
+
+# Local databases
+*.db
+*.sqlite3
+
+# Datasets and trained models (download/train with the scripts in ml/)
+ml/datasets/*/
+ml/models/*.pt
+ml/models/*.joblib
+ml/evaluation/*.log
+
+# Node / build output
+node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

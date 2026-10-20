@@ -1,0 +1,98 @@
+{
+  "_note": "Static reference content. Scheme details change — always verify on the official portal. Last reviewed: October 2026.",
+  "schemes": [
+    {
+      "id": "pm-kisan", "name": "PM-KISAN", "name_hi": "पीएम-किसान सम्मान निधि",
+      "category": "Income support",
+      "summary": "Income support to eligible landholding farmer families, paid in instalments directly to bank accounts.",
+      "summary_hi": "पात्र भूमिधारक किसान परिवारों को सीधे बैंक खाते में किस्तों में आय सहायता।",
+      "url": "https://pmkisan.gov.in"
+    },
+    {
+      "id": "pmfby", "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)", "name_hi": "प्रधानमंत्री फसल बीमा योजना",
+      "category": "Crop insurance",
+      "summary": "Crop insurance against yield loss from natural calamities, pests and diseases, with a low farmer premium share.",
+      "summary_hi": "प्राकृतिक आपदा, कीट और रोग से उपज हानि के लिए कम प्रीमियम पर फसल बीमा।",
+      "url": "https://pmfby.gov.in"
+    },
+    {
+      "id": "soil-health-card", "name": "Soil Health Card", "name_hi": "मृदा स्वास्थ्य कार्ड",
+      "category": "Soil testing",
+      "summary": "Soil testing with a card showing nutrient status and fertiliser recommendations for your field.",
+      "summary_hi": "मिट्टी की जाँच और आपके खेत के लिए पोषक तत्व स्थिति व उर्वरक सिफारिश वाला कार्ड।",
+      "url": "https://soilhealth.dac.gov.in"
+    },
+    {
+      "id": "pmksy", "name": "PM Krishi Sinchayee Yojana — Per Drop More Crop", "name_hi": "प्रधानमंत्री कृषि सिंचाई योजना",
+      "category": "Irrigation",
+      "summary": "Support for micro-irrigation (drip and sprinkler) and water-use efficiency on farms.",
+      "summary_hi": "ड्रिप और स्प्रिंकलर जैसी सूक्ष्म सिंचाई और जल उपयोग दक्षता के लिए सहायता।",
+      "url": "https://pmksy.gov.in"
+    },
+    {
+      "id": "kcc", "name": "Kisan Credit Card (KCC)", "name_hi": "किसान क्रेडिट कार्ड",
+      "category": "Credit",
+      "summary": "Short-term crop loans at concessional interest through banks. Apply at your bank branch or through the PM-KISAN portal.",
+      "summary_hi": "बैंकों के माध्यम से रियायती ब्याज पर अल्पकालिक फसल ऋण। अपनी बैंक शाखा या पीएम-किसान पोर्टल से आवेदन करें।",
+      "url": "https://pmkisan.gov.in"
+    },
+    {
+      "id": "enam", "name": "e-NAM (National Agriculture Market)", "name_hi": "ई-नाम (राष्ट्रीय कृषि बाजार)",
+      "category": "Marketing",
+      "summary": "Online trading platform linking mandis so farmers can discover prices and sell produce.",
+      "summary_hi": "मंडियों को जोड़ने वाला ऑनलाइन व्यापार मंच, जिससे किसान भाव जान सकें और उपज बेच सकें।",
+      "url": "https://enam.gov.in"
+    },
+    {
+      "id": "pm-kusum", "name": "PM-KUSUM", "name_hi": "पीएम-कुसुम",
+      "category": "Solar energy",
+      "summary": "Support for solar irrigation pumps and grid-connected solar power on farms.",
+      "summary_hi": "सौर सिंचाई पंप और खेतों पर ग्रिड से जुड़ी सौर ऊर्जा के लिए सहायता।",
+      "url": "https://pmkusum.mnre.gov.in"
+    }
+  ],
+  "helplines": [
+    {"name": "Kisan Call Centre", "name_hi": "किसान कॉल सेंटर", "phone": "1800-180-1551", "note": "Toll-free, local languages"}
+  ],
+  "stubble": {
+    "why_not_burn": [
+      "Burning destroys soil organic matter and nutrients such as nitrogen and sulphur present in the straw.",
+      "Heat kills useful soil organisms like earthworms and microbes.",
+      "Smoke causes serious air pollution and health problems for families and villages."
+    ],
+    "why_not_burn_hi": [
+      "जलाने से पुआल में मौजूद जैविक पदार्थ और नाइट्रोजन, सल्फर जैसे पोषक तत्व नष्ट होते हैं।",
+      "गर्मी से केंचुए और उपयोगी सूक्ष्मजीव मर जाते हैं।",
+      "धुएँ से गंभीर वायु प्रदूषण और परिवारों व गाँवों में स्वास्थ्य समस्याएँ होती हैं।"
+    ],
+    "options": [
+      {
+        "id": "happy-seeder", "type": "In-situ", "name": "Happy Seeder / Super Seeder", "name_hi": "हैप्पी सीडर / सुपर सीडर",
+        "description": "Sow wheat directly into standing paddy stubble; the straw stays on the field as mulch, conserving moisture and reducing weeds.",
+        "description_hi": "धान की खड़ी पराली में सीधे गेहूँ की बुआई; पुआल मल्च बनकर नमी बचाता है और खरपतवार घटाता है।"
+      },
+      {
+        "id": "incorporation", "type": "In-situ", "name": "Mulcher + plough incorporation", "name_hi": "मल्चर + हल से मिलाना",
+        "description": "Chop straw with a mulcher and mix it into the soil with a reversible plough or rotavator to build organic carbon.",
+        "description_hi": "मल्चर से पुआल काटकर रिवर्सिबल हल या रोटावेटर से मिट्टी में मिलाएँ, जिससे जैविक कार्बन बढ़े।"
+      },
+      {
+        "id": "decomposer", "type": "In-situ", "name": "Bio-decomposer (e.g. PUSA Decomposer)", "name_hi": "जैव-अपघटक (जैसे पूसा डीकंपोजर)",
+        "description": "Spray a microbial solution developed by ICAR-IARI on the stubble; with adequate moisture it softens and decomposes the residue over a few weeks.",
+        "description_hi": "ICAR-IARI द्वारा विकसित सूक्ष्मजीव घोल का पराली पर छिड़काव; पर्याप्त नमी में कुछ हफ्तों में अवशेष सड़ जाता है।"
+      },
+      {
+        "id": "baling", "type": "Ex-situ", "name": "Baling for industry", "name_hi": "गांठें बनाकर उद्योग को बेचना",
+        "description": "Collect straw with balers and supply it to biomass power plants, compressed biogas plants, pellet or cardboard units.",
+        "description_hi": "बेलर से पुआल इकट्ठा कर बायोमास बिजली, बायो-सीएनजी, पेलेट या गत्ता इकाइयों को दें।"
+      },
+      {
+        "id": "mushroom-fodder", "type": "Ex-situ", "name": "Mushroom cultivation and other uses", "name_hi": "मशरूम उत्पादन व अन्य उपयोग",
+        "description": "Straw can be used as a substrate for mushroom growing, for composting, or as animal bedding.",
+        "description_hi": "पुआल का उपयोग मशरूम उगाने, कम्पोस्ट बनाने या पशुओं के बिछावन के रूप में किया जा सकता है।"
+      }
+    ],
+    "support": "Under the Crop Residue Management (CRM) scheme, machines are available with subsidy or on rent from Custom Hiring Centres in several states. Contact your district agriculture office.",
+    "support_hi": "फसल अवशेष प्रबंधन (CRM) योजना के तहत कई राज्यों में मशीनें सब्सिडी पर या कस्टम हायरिंग केंद्रों से किराए पर मिलती हैं। अपने जिला कृषि कार्यालय से संपर्क करें।"
+  }
+}

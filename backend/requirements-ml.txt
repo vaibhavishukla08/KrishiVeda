@@ -1,0 +1,5 @@
+# PyTorch is needed for plant disease detection (training and inference).
+# It is kept in a separate file because it is a large download (~200 MB).
+# CPU-only wheels are the default on Windows/macOS from PyPI.
+torch>=2.9
+torchvision>=0.24

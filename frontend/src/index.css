@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* KrishiVeda design tokens — nature-inspired palette with accessible contrast */
+@theme {
+  --font-sans: "Mukta", "Noto Sans Devanagari", system-ui, sans-serif;
+  --font-display: "Fraunces", "Mukta", Georgia, serif;
+
+  --color-forest-900: #12301f;
+  --color-forest-800: #1a3f2b;
+  --color-forest-700: #1f4d36;
+  --color-forest-600: #2a6345;
+  --color-leaf-600: #2f7d4a;
+  --color-leaf-500: #3f9a5c;
+  --color-leaf-100: #e3f1e6;
+  --color-leaf-50: #f1f8f2;
+  --color-wheat-500: #d9a441;
+  --color-wheat-100: #f8edd3;
+  --color-soil-700: #6b4a2b;
+  --color-cream: #f7f5ee;
+  --color-ink: #1d2a22;
+  --color-ink-muted: #56645b;
+  --color-line: #dfe3d8;
+
+  --color-sky-chart: #2f6db3;
+  --color-sun-chart: #c4661b;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.55;
+}
+h1, h2, h3 { font-family: var(--font-display); letter-spacing: -0.01em; }
+:lang(hi) h1, :lang(hi) h2, :lang(hi) h3 { font-family: var(--font-sans); letter-spacing: 0; }
+
+/* Visible keyboard focus everywhere */
+:focus-visible { outline: 3px solid var(--color-wheat-500); outline-offset: 2px; border-radius: 6px; }
+
+.card {
+  background: #fff;
+  border: 1px solid var(--color-line);
+  border-radius: 18px;
+  box-shadow: 0 1px 2px rgb(18 48 31 / 0.04);
+}
+.input {
+  width: 100%;
+  border: 1px solid #c9d0c4;
+  border-radius: 12px;
+  padding: 0.6rem 0.8rem;
+  background: #fff;
+  font-size: 1rem;
+  color: var(--color-ink);
+}
+.input:focus { outline: 3px solid rgb(63 154 92 / 0.35); border-color: var(--color-leaf-600); }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  border-radius: 12px; padding: 0.65rem 1.1rem; font-weight: 600; font-size: 1rem;
+  min-height: 44px; transition: background-color .15s, opacity .15s; cursor: pointer;
+}
+.btn:disabled { opacity: .55; cursor: not-allowed; }
+.btn-primary { background: var(--color-forest-700); color: #fff; }
+.btn-primary:hover:not(:disabled) { background: var(--color-forest-600); }
+.btn-secondary { background: #fff; color: var(--color-forest-700); border: 1px solid #c9d0c4; }
+.btn-secondary:hover:not(:disabled) { background: var(--color-leaf-50); }
+.label { display: block; font-weight: 600; font-size: 0.95rem; margin-bottom: 0.3rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

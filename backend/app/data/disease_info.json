@@ -1,0 +1,200 @@
+{
+  "_note": "General guidance for PlantVillage classes. Chemical names are examples of commonly recommended active-ingredient groups; always follow the product label and local agriculture officer / KVK advice.",
+  "classes": {
+    "Apple___Apple_scab": {
+      "crop": "Apple", "crop_hi": "सेब", "disease": "Apple scab", "disease_hi": "सेब का स्कैब (पपड़ी रोग)",
+      "cause": "Fungus (Venturia inaequalis)",
+      "symptoms": "Olive-green to dark, velvety spots on leaves and fruit; badly affected leaves turn yellow and drop early.",
+      "management": ["Collect and destroy fallen infected leaves.", "Prune to improve air flow through the canopy.", "Apply a recommended protective fungicide (e.g. captan or mancozeb group) from green-tip to petal-fall as advised locally."],
+      "prevention": ["Plant scab-resistant varieties where available.", "Keep orchard floor clean during winter."]
+    },
+    "Apple___Black_rot": {
+      "crop": "Apple", "crop_hi": "सेब", "disease": "Black rot", "disease_hi": "काला सड़न",
+      "cause": "Fungus (Botryosphaeria obtusa)",
+      "symptoms": "'Frog-eye' leaf spots with purple edges and tan centres; rotting fruit and sunken cankers on branches.",
+      "management": ["Prune out dead wood, cankers and dried (mummified) fruit.", "Apply a recommended fungicide during the growing season if the disease is common in your area."],
+      "prevention": ["Remove fruit mummies and prunings from the orchard.", "Avoid tree stress through proper watering and nutrition."]
+    },
+    "Apple___Cedar_apple_rust": {
+      "crop": "Apple", "crop_hi": "सेब", "disease": "Cedar apple rust", "disease_hi": "सीडर एप्पल रस्ट (गेरुआ)",
+      "cause": "Fungus (Gymnosporangium juniperi-virginianae); needs juniper/cedar trees to complete its life cycle",
+      "symptoms": "Bright yellow-orange spots on the upper leaf surface, later with small tubes on the underside.",
+      "management": ["Apply a recommended fungicide from pink-bud to petal-fall stage.", "Remove nearby juniper/cedar hosts where practical."],
+      "prevention": ["Choose rust-resistant apple varieties."]
+    },
+    "Apple___healthy": {"crop": "Apple", "crop_hi": "सेब", "healthy": true},
+    "Background_without_leaves": {"no_leaf": true},
+    "Blueberry___healthy": {"crop": "Blueberry", "crop_hi": "ब्लूबेरी", "healthy": true},
+    "Cherry___Powdery_mildew": {
+      "crop": "Cherry", "crop_hi": "चेरी", "disease": "Powdery mildew", "disease_hi": "चूर्णिल आसिता (पाउडरी मिल्ड्यू)",
+      "cause": "Fungus (Podosphaera clandestina)",
+      "symptoms": "White, powdery patches on young leaves; leaves may curl and become distorted.",
+      "management": ["Prune to open the canopy and improve air flow.", "Apply a sulphur-based or other recommended fungicide at first signs."],
+      "prevention": ["Avoid excess nitrogen fertiliser that promotes soft growth.", "Remove root suckers and water shoots."]
+    },
+    "Cherry___healthy": {"crop": "Cherry", "crop_hi": "चेरी", "healthy": true},
+    "Corn___Cercospora_leaf_spot_Gray_leaf_spot": {
+      "crop": "Maize (Corn)", "crop_hi": "मक्का", "disease": "Gray leaf spot", "disease_hi": "धूसर पत्ती धब्बा",
+      "cause": "Fungus (Cercospora zeae-maydis)",
+      "symptoms": "Long, narrow, rectangular grey to tan spots running between leaf veins.",
+      "management": ["If disease is severe before tasseling, apply a recommended fungicide.", "Remove or plough in infected crop residue after harvest."],
+      "prevention": ["Grow tolerant hybrids.", "Rotate maize with a non-cereal crop."]
+    },
+    "Corn___Common_rust": {
+      "crop": "Maize (Corn)", "crop_hi": "मक्का", "disease": "Common rust", "disease_hi": "सामान्य गेरुआ (रस्ट)",
+      "cause": "Fungus (Puccinia sorghi)",
+      "symptoms": "Small, raised, cinnamon-brown powdery pustules on both sides of the leaves.",
+      "management": ["Usually needs no spray on tolerant hybrids; for early, heavy infection apply a recommended fungicide."],
+      "prevention": ["Grow rust-resistant hybrids.", "Sow at the recommended time for your region."]
+    },
+    "Corn___Northern_Leaf_Blight": {
+      "crop": "Maize (Corn)", "crop_hi": "मक्का", "disease": "Northern (Turcicum) leaf blight", "disease_hi": "टर्सिकम पत्ती झुलसा",
+      "cause": "Fungus (Exserohilum turcicum)",
+      "symptoms": "Long (2.5–15 cm), cigar-shaped grey-green to tan lesions on the leaves.",
+      "management": ["Apply a recommended fungicide (e.g. mancozeb group) when lesions first appear, as advised locally.", "Destroy infected crop residue."],
+      "prevention": ["Grow resistant hybrids.", "Practise crop rotation."]
+    },
+    "Corn___healthy": {"crop": "Maize (Corn)", "crop_hi": "मक्का", "healthy": true},
+    "Grape___Black_rot": {
+      "crop": "Grape", "crop_hi": "अंगूर", "disease": "Black rot", "disease_hi": "काला सड़न",
+      "cause": "Fungus (Guignardia bidwellii)",
+      "symptoms": "Round tan-brown leaf spots with dark borders; berries shrivel into hard black 'mummies'.",
+      "management": ["Remove mummified berries and infected leaves.", "Apply a recommended fungicide from bud break to berry set."],
+      "prevention": ["Prune for good air flow and sunlight.", "Keep the vineyard free of old infected material."]
+    },
+    "Grape___Esca_(Black_Measles)": {
+      "crop": "Grape", "crop_hi": "अंगूर", "disease": "Esca (Black measles)", "disease_hi": "एस्का (काला खसरा)",
+      "cause": "Complex of wood-infecting fungi (e.g. Phaeomoniella chlamydospora)",
+      "symptoms": "'Tiger-stripe' yellow and brown patches between leaf veins; dark spots on berries; vines may suddenly wilt.",
+      "management": ["There is no curative spray. Cut out and burn infected wood well below the damage.", "Remove severely affected vines."],
+      "prevention": ["Prune in dry weather and protect large pruning wounds.", "Use healthy planting material."]
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+      "crop": "Grape", "crop_hi": "अंगूर", "disease": "Leaf blight (Isariopsis leaf spot)", "disease_hi": "पत्ती झुलसा",
+      "cause": "Fungus (Pseudocercospora vitis)",
+      "symptoms": "Irregular dark brown spots on leaves that later dry out and fall.",
+      "management": ["Remove infected leaves.", "Apply a recommended copper or mancozeb-group fungicide as advised locally."],
+      "prevention": ["Improve canopy ventilation.", "Avoid wetting leaves during irrigation."]
+    },
+    "Grape___healthy": {"crop": "Grape", "crop_hi": "अंगूर", "healthy": true},
+    "Orange___Haunglongbing_(Citrus_greening)": {
+      "crop": "Orange (Citrus)", "crop_hi": "संतरा", "disease": "Citrus greening (Huanglongbing)", "disease_hi": "सिट्रस ग्रीनिंग (हुआंगलोंगबिंग)",
+      "cause": "Bacterium (Candidatus Liberibacter asiaticus) spread by the Asian citrus psyllid insect",
+      "symptoms": "Blotchy, uneven yellow mottling on leaves; small, lopsided, bitter fruit that stays green.",
+      "management": ["There is no cure. Remove and destroy confirmed infected trees to protect healthy trees.", "Control psyllid insects as advised by your agriculture officer."],
+      "prevention": ["Plant only certified disease-free nursery plants.", "Monitor regularly for psyllids, especially on new flush."]
+    },
+    "Peach___Bacterial_spot": {
+      "crop": "Peach", "crop_hi": "आड़ू", "disease": "Bacterial spot", "disease_hi": "जीवाणु धब्बा रोग",
+      "cause": "Bacterium (Xanthomonas arboricola pv. pruni)",
+      "symptoms": "Small water-soaked spots that turn purple-brown; centres may fall out leaving 'shot holes'.",
+      "management": ["Apply copper-based sprays as recommended (dormant / early season).", "Avoid overhead irrigation."],
+      "prevention": ["Plant tolerant varieties.", "Maintain balanced nutrition; avoid excess nitrogen."]
+    },
+    "Peach___healthy": {"crop": "Peach", "crop_hi": "आड़ू", "healthy": true},
+    "Pepper__bell___Bacterial_spot": {
+      "crop": "Bell pepper (Capsicum)", "crop_hi": "शिमला मिर्च", "disease": "Bacterial spot", "disease_hi": "जीवाणु धब्बा रोग",
+      "cause": "Bacteria (Xanthomonas species)",
+      "symptoms": "Small water-soaked spots that turn brown, often with a yellow halo; leaves drop.",
+      "management": ["Remove badly infected plants and leaves.", "Apply a recommended copper-based spray."],
+      "prevention": ["Use disease-free or treated seed.", "Rotate with non-solanaceous crops for 2–3 years.", "Avoid overhead irrigation."]
+    },
+    "Pepper__bell___healthy": {"crop": "Bell pepper (Capsicum)", "crop_hi": "शिमला मिर्च", "healthy": true},
+    "Potato___Early_blight": {
+      "crop": "Potato", "crop_hi": "आलू", "disease": "Early blight", "disease_hi": "अगेती झुलसा",
+      "cause": "Fungus (Alternaria solani)",
+      "symptoms": "Brown spots with concentric rings (target-board look), starting on older lower leaves.",
+      "management": ["Remove infected lower leaves.", "Apply a recommended fungicide (e.g. mancozeb or chlorothalonil group) as advised locally."],
+      "prevention": ["Rotate crops; avoid planting potato/tomato in the same field each year.", "Keep plants well nourished — stressed plants are more susceptible."]
+    },
+    "Potato___Late_blight": {
+      "crop": "Potato", "crop_hi": "आलू", "disease": "Late blight", "disease_hi": "पछेती झुलसा",
+      "cause": "Water mould (Phytophthora infestans)",
+      "symptoms": "Pale green, water-soaked patches that quickly turn dark brown/black; white mould on the leaf underside in humid weather. Spreads very fast.",
+      "management": ["Act immediately — remove and destroy infected plants.", "Spray a recommended fungicide for late blight (protective, or systemic combinations as advised by your KVK).", "Stop overhead irrigation."],
+      "prevention": ["Use certified healthy seed tubers.", "Watch forecasts: cool, humid, cloudy weather favours late blight.", "Earth up plants to protect tubers."]
+    },
+    "Potato___healthy": {"crop": "Potato", "crop_hi": "आलू", "healthy": true},
+    "Raspberry___healthy": {"crop": "Raspberry", "crop_hi": "रास्पबेरी", "healthy": true},
+    "Soybean___healthy": {"crop": "Soybean", "crop_hi": "सोयाबीन", "healthy": true},
+    "Squash___Powdery_mildew": {
+      "crop": "Squash / Pumpkin", "crop_hi": "कद्दू (स्क्वैश)", "disease": "Powdery mildew", "disease_hi": "चूर्णिल आसिता (पाउडरी मिल्ड्यू)",
+      "cause": "Fungus (Podosphaera xanthii and related species)",
+      "symptoms": "White, powdery spots on leaves and stems that spread to cover the leaf.",
+      "management": ["Remove heavily infected leaves.", "Apply a sulphur-based or other recommended fungicide."],
+      "prevention": ["Grow resistant varieties.", "Give plants enough spacing and sunlight."]
+    },
+    "Strawberry___Leaf_scorch": {
+      "crop": "Strawberry", "crop_hi": "स्ट्रॉबेरी", "disease": "Leaf scorch", "disease_hi": "पत्ती झुलसन",
+      "cause": "Fungus (Diplocarpon earlianum)",
+      "symptoms": "Many small purple spots that join together; the leaf looks burnt or scorched.",
+      "management": ["Remove infected leaves after harvest.", "Apply a recommended fungicide if the disease is severe."],
+      "prevention": ["Use drip irrigation instead of overhead watering.", "Plant healthy runners and renew beds regularly."]
+    },
+    "Strawberry___healthy": {"crop": "Strawberry", "crop_hi": "स्ट्रॉबेरी", "healthy": true},
+    "Tomato___Bacterial_spot": {
+      "crop": "Tomato", "crop_hi": "टमाटर", "disease": "Bacterial spot", "disease_hi": "जीवाणु धब्बा रोग",
+      "cause": "Bacteria (Xanthomonas species)",
+      "symptoms": "Small, dark, water-soaked spots on leaves and fruit, sometimes with a yellow halo.",
+      "management": ["Remove infected leaves and plants.", "Apply a recommended copper-based spray."],
+      "prevention": ["Use disease-free or treated seed and healthy seedlings.", "Rotate with non-solanaceous crops.", "Avoid working in the field when plants are wet."]
+    },
+    "Tomato___Early_blight": {
+      "crop": "Tomato", "crop_hi": "टमाटर", "disease": "Early blight", "disease_hi": "अगेती झुलसा",
+      "cause": "Fungus (Alternaria species)",
+      "symptoms": "Brown spots with concentric rings on older leaves; leaves yellow around the spots and drop.",
+      "management": ["Remove infected lower leaves.", "Apply a recommended fungicide (e.g. mancozeb or chlorothalonil group) as advised locally."],
+      "prevention": ["Mulch to stop soil splashing onto leaves.", "Stake plants and rotate crops."]
+    },
+    "Tomato___Late_blight": {
+      "crop": "Tomato", "crop_hi": "टमाटर", "disease": "Late blight", "disease_hi": "पछेती झुलसा",
+      "cause": "Water mould (Phytophthora infestans)",
+      "symptoms": "Large, dark, greasy-looking patches on leaves and stems; white mould under leaves in humid weather; fruit develops brown firm rot.",
+      "management": ["Act immediately — remove and destroy infected plants.", "Spray a recommended late-blight fungicide as advised by your KVK.", "Avoid overhead irrigation."],
+      "prevention": ["Do not plant tomato near potato fields with blight.", "Watch for cool, humid weather and inspect daily."]
+    },
+    "Tomato___Leaf_Mold": {
+      "crop": "Tomato", "crop_hi": "टमाटर", "disease": "Leaf mould", "disease_hi": "पत्ती फफूंद",
+      "cause": "Fungus (Passalora fulva)",
+      "symptoms": "Pale yellow spots on the upper leaf surface with olive-green velvety mould underneath; common in humid polyhouses.",
+      "management": ["Improve ventilation and reduce humidity.", "Remove infected leaves; apply a recommended fungicide if needed."],
+      "prevention": ["Grow resistant varieties in polyhouses.", "Avoid wetting leaves; water at the base."]
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "crop": "Tomato", "crop_hi": "टमाटर", "disease": "Septoria leaf spot", "disease_hi": "सेप्टोरिया पत्ती धब्बा",
+      "cause": "Fungus (Septoria lycopersici)",
+      "symptoms": "Many small round spots with dark edges and grey-white centres containing tiny black dots; starts on lower leaves.",
+      "management": ["Remove infected lower leaves.", "Apply a recommended fungicide as advised locally."],
+      "prevention": ["Mulch and avoid overhead watering.", "Rotate crops and remove plant debris after harvest."]
+    },
+    "Tomato___Spider_mites_Two-spotted_spider_mite": {
+      "crop": "Tomato", "crop_hi": "टमाटर", "disease": "Two-spotted spider mite (pest)", "disease_hi": "लाल मकड़ी (माइट)",
+      "cause": "Pest — mite (Tetranychus urticae), not a fungus",
+      "symptoms": "Tiny yellow-white speckles on leaves, fine webbing underneath; leaves turn bronze and dry. Worse in hot, dry weather.",
+      "management": ["Spray water forcefully on leaf undersides.", "Use neem oil or insecticidal soap for light infestations.", "For heavy infestation use a recommended miticide (acaricide) — not an ordinary insecticide."],
+      "prevention": ["Avoid water stress and dusty conditions.", "Protect natural predators such as predatory mites."]
+    },
+    "Tomato___Target_Spot": {
+      "crop": "Tomato", "crop_hi": "टमाटर", "disease": "Target spot", "disease_hi": "टारगेट स्पॉट",
+      "cause": "Fungus (Corynespora cassiicola)",
+      "symptoms": "Brown spots with light centres and concentric rings on leaves, stems and fruit; can look like early blight.",
+      "management": ["Remove infected leaves and plant debris.", "Apply a recommended fungicide if spreading."],
+      "prevention": ["Improve air flow by pruning and staking.", "Avoid overhead irrigation."]
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "crop": "Tomato", "crop_hi": "टमाटर", "disease": "Tomato mosaic virus", "disease_hi": "मोज़ेक विषाणु रोग",
+      "cause": "Virus (ToMV) spread by contact, tools, hands and seed",
+      "symptoms": "Light and dark green mosaic pattern on leaves, leaf curling or distortion, stunted plants.",
+      "management": ["There is no cure. Remove and destroy infected plants.", "Wash hands and disinfect tools after handling plants."],
+      "prevention": ["Use certified virus-free seed and resistant varieties.", "Avoid tobacco use while handling plants."]
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "crop": "Tomato", "crop_hi": "टमाटर", "disease": "Tomato yellow leaf curl virus", "disease_hi": "पीत पर्ण कुंचन विषाणु (लीफ कर्ल)",
+      "cause": "Virus (TYLCV) spread by whiteflies",
+      "symptoms": "Leaves curl upward with yellow edges; plants are stunted and flowers drop.",
+      "management": ["There is no cure. Pull out infected plants early.", "Control whiteflies with yellow sticky traps, neem products or recommended insecticides."],
+      "prevention": ["Raise seedlings under insect-proof net.", "Grow resistant varieties; remove weeds that host whiteflies."]
+    },
+    "Tomato___healthy": {"crop": "Tomato", "crop_hi": "टमाटर", "healthy": true}
+  }
+}

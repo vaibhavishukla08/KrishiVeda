@@ -1,0 +1,135 @@
+{
+  "model": "disease_cnn.pt",
+  "model_version": "pv-mnv3l-20261019",
+  "data": "ml\\datasets\\plantdoc\\test",
+  "images": 236,
+  "classes": 27,
+  "accuracy": 0.2924,
+  "macro_f1": 0.2737,
+  "top3_accuracy": 0.4661,
+  "crop_identified_accuracy": 0.4873,
+  "by_threshold": {
+    "0.5": {
+      "coverage": 0.2331,
+      "accuracy_when_confident": 0.3636
+    },
+    "0.6": {
+      "coverage": 0.1483,
+      "accuracy_when_confident": 0.3143
+    },
+    "0.7": {
+      "coverage": 0.1017,
+      "accuracy_when_confident": 0.375
+    }
+  },
+  "per_class": {
+    "Apple___Apple_scab": {
+      "images": 10,
+      "accuracy": 0.2
+    },
+    "Apple___Cedar_apple_rust": {
+      "images": 10,
+      "accuracy": 0.1
+    },
+    "Apple___healthy": {
+      "images": 9,
+      "accuracy": 0.2222
+    },
+    "Blueberry___healthy": {
+      "images": 11,
+      "accuracy": 0.9091
+    },
+    "Cherry___healthy": {
+      "images": 10,
+      "accuracy": 0.0
+    },
+    "Corn___Cercospora_leaf_spot_Gray_leaf_spot": {
+      "images": 4,
+      "accuracy": 0.5
+    },
+    "Corn___Common_rust": {
+      "images": 10,
+      "accuracy": 0.2
+    },
+    "Corn___Northern_Leaf_Blight": {
+      "images": 12,
+      "accuracy": 0.4167
+    },
+    "Grape___Black_rot": {
+      "images": 8,
+      "accuracy": 0.625
+    },
+    "Grape___healthy": {
+      "images": 12,
+      "accuracy": 0.75
+    },
+    "Peach___healthy": {
+      "images": 9,
+      "accuracy": 0.1111
+    },
+    "Pepper__bell___Bacterial_spot": {
+      "images": 9,
+      "accuracy": 0.1111
+    },
+    "Pepper__bell___healthy": {
+      "images": 8,
+      "accuracy": 0.75
+    },
+    "Potato___Early_blight": {
+      "images": 8,
+      "accuracy": 0.25
+    },
+    "Potato___Late_blight": {
+      "images": 8,
+      "accuracy": 0.25
+    },
+    "Raspberry___healthy": {
+      "images": 7,
+      "accuracy": 0.8571
+    },
+    "Soybean___healthy": {
+      "images": 8,
+      "accuracy": 0.0
+    },
+    "Squash___Powdery_mildew": {
+      "images": 6,
+      "accuracy": 0.6667
+    },
+    "Strawberry___healthy": {
+      "images": 8,
+      "accuracy": 0.0
+    },
+    "Tomato___Bacterial_spot": {
+      "images": 9,
+      "accuracy": 0.0
+    },
+    "Tomato___Early_blight": {
+      "images": 9,
+      "accuracy": 0.0
+    },
+    "Tomato___Late_blight": {
+      "images": 10,
+      "accuracy": 0.4
+    },
+    "Tomato___Leaf_Mold": {
+      "images": 6,
+      "accuracy": 0.1667
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "images": 11,
+      "accuracy": 0.2727
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "images": 6,
+      "accuracy": 0.1667
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "images": 10,
+      "accuracy": 0.0
+    },
+    "Tomato___healthy": {
+      "images": 8,
+      "accuracy": 0.0
+    }
+  }
+}

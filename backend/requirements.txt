@@ -1,0 +1,25 @@
+# --- Web API ---
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.8
+pydantic-settings>=2.4
+
+# --- Database (SQLite by default, MySQL via PyMySQL) ---
+sqlalchemy>=2.0
+pymysql>=1.1
+
+# --- External APIs ---
+httpx>=0.27
+truststore>=0.9          # use the OS certificate store (works behind campus/office TLS proxies)
+anthropic>=1.0           # optional: Farmer Advisory Assistant (only used when ANTHROPIC_API_KEY is set)
+
+# --- ML inference ---
+numpy>=2.0
+pillow>=10.4
+scikit-learn>=1.5
+joblib>=1.4
+pandas>=2.2
+
+# --- Testing ---
+pytest>=8.0

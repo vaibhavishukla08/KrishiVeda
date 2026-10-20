@@ -1,0 +1,65 @@
+{
+  "_note": "Offline advisory knowledge base used when no AI provider is configured. General guidance only.",
+  "entries": [
+    {
+      "id": "irrigation_time",
+      "keywords": ["irrigate", "irrigation", "water", "watering", "when to water", "सिंचाई", "पानी"],
+      "answer_en": "Irrigate in the early morning or evening to reduce evaporation. Before irrigating, check soil moisture at root depth: if the soil crumbles and does not form a ball when squeezed, the crop likely needs water. Skip irrigation if 10 mm or more rain is forecast in the next two days. Drip or sprinkler irrigation can save 30–50% water compared with flood irrigation for many crops.",
+      "answer_hi": "सिंचाई सुबह जल्दी या शाम को करें ताकि वाष्पीकरण कम हो। सिंचाई से पहले जड़ की गहराई पर मिट्टी की नमी जाँचें: मुट्ठी में दबाने पर मिट्टी गोला न बनाए और बिखर जाए तो फसल को पानी चाहिए। अगर अगले दो दिनों में 10 मिमी या अधिक बारिश का अनुमान हो तो सिंचाई टाल दें। ड्रिप या स्प्रिंकलर से कई फसलों में 30–50% पानी बचता है।"
+    },
+    {
+      "id": "soil_test",
+      "keywords": ["soil test", "soil health", "npk", "fertilizer", "fertiliser", "urea", "dap", "मिट्टी", "खाद", "उर्वरक", "जांच"],
+      "answer_en": "Get your soil tested every 2–3 years. The Soil Health Card scheme gives nutrient status (N, P, K, pH, organic carbon, micronutrients) and fertiliser recommendations for your field. Apply fertiliser based on the soil test instead of fixed doses; split nitrogen (urea) into 2–3 doses and avoid applying it just before heavy rain.",
+      "answer_hi": "हर 2–3 साल में मिट्टी की जाँच कराएँ। मृदा स्वास्थ्य कार्ड योजना से आपके खेत के पोषक तत्व (N, P, K, pH, जैविक कार्बन, सूक्ष्म पोषक तत्व) और उर्वरक की सलाह मिलती है। तय मात्रा के बजाय मिट्टी जाँच के आधार पर खाद डालें; यूरिया को 2–3 बार में बाँटकर दें और भारी बारिश से ठीक पहले न डालें।"
+    },
+    {
+      "id": "fungal_disease",
+      "keywords": ["fungus", "fungal", "blight", "mildew", "leaf spot", "rust", "disease", "रोग", "फफूंद", "झुलसा", "धब्बे"],
+      "answer_en": "To prevent fungal diseases: use certified disease-free seed and seed treatment, keep proper plant spacing for air flow, avoid overhead irrigation in the evening, remove and destroy infected leaves, and rotate crops. Humid weather with mild temperatures increases risk, so inspect plants more often. If spraying is needed, use a fungicide recommended by your local agriculture officer or KVK and follow the label dose and safety period.",
+      "answer_hi": "फफूंद रोगों से बचाव के लिए: प्रमाणित रोग-मुक्त बीज और बीज उपचार का उपयोग करें, हवा के लिए पौधों में उचित दूरी रखें, शाम को ऊपर से सिंचाई न करें, संक्रमित पत्तियाँ हटाकर नष्ट करें और फसल चक्र अपनाएँ। नम और हल्के तापमान वाले मौसम में खतरा बढ़ता है, इसलिए पौधों की जाँच अधिक करें। छिड़काव जरूरी हो तो स्थानीय कृषि अधिकारी या KVK द्वारा सुझाया गया फफूंदनाशक लेबल की मात्रा के अनुसार ही प्रयोग करें।"
+    },
+    {
+      "id": "pest_ipm",
+      "keywords": ["pest", "insect", "aphid", "whitefly", "caterpillar", "borer", "pesticide", "spray", "कीट", "कीड़े", "दवा", "छिड़काव"],
+      "answer_en": "Follow Integrated Pest Management (IPM): monitor the field weekly, use yellow sticky traps and pheromone traps, protect natural enemies such as ladybird beetles, and try neem-based products for early infestations. Spray chemical pesticides only when pest numbers cross the economic threshold. Do not spray in strong wind or when rain is expected within 24 hours, and always wear protective clothing.",
+      "answer_hi": "एकीकृत कीट प्रबंधन (IPM) अपनाएँ: हर हफ्ते खेत की निगरानी करें, पीले चिपचिपे ट्रैप और फेरोमोन ट्रैप लगाएँ, लेडीबर्ड जैसे मित्र कीटों को बचाएँ और शुरुआती प्रकोप में नीम आधारित उत्पाद आज़माएँ। रासायनिक कीटनाशक तभी छिड़कें जब कीट आर्थिक दहलीज से ऊपर हों। तेज हवा में या 24 घंटे में बारिश की संभावना हो तो छिड़काव न करें और हमेशा सुरक्षा कपड़े पहनें।"
+    },
+    {
+      "id": "stubble",
+      "keywords": ["stubble", "parali", "straw", "residue", "burning", "पराली", "पुआल", "जलाना", "अवशेष"],
+      "answer_en": "Avoid burning crop residue (parali): it destroys soil organic matter and causes air pollution. Alternatives include sowing wheat directly with a Happy Seeder or Super Seeder, mixing residue into soil, spraying a microbial decomposer such as PUSA Decomposer, or selling baled straw for biomass power, cardboard or animal feed. Machines are available on subsidy or rent through Custom Hiring Centres under the Crop Residue Management scheme.",
+      "answer_hi": "फसल अवशेष (पराली) न जलाएँ: इससे मिट्टी का जैविक पदार्थ नष्ट होता है और वायु प्रदूषण होता है। विकल्प: हैप्पी सीडर या सुपर सीडर से सीधे गेहूँ की बुआई, अवशेष को मिट्टी में मिलाना, PUSA डीकंपोजर जैसे सूक्ष्मजीव घोल का छिड़काव, या गांठें बनाकर बायोमास बिजली, गत्ता या चारे के लिए बेचना। फसल अवशेष प्रबंधन योजना के तहत कस्टम हायरिंग केंद्रों से मशीनें सब्सिडी या किराए पर मिलती हैं।"
+    },
+    {
+      "id": "compost",
+      "keywords": ["compost", "organic", "manure", "vermicompost", "gobar", "जैविक", "खाद", "केंचुआ", "गोबर"],
+      "answer_en": "Well-decomposed farmyard manure or vermicompost improves soil structure, water holding and nutrient supply. Apply it before sowing and mix into the soil. Composting crop residue and cow dung for 2–3 months, keeping the heap moist and turning it occasionally, produces good-quality manure at low cost.",
+      "answer_hi": "अच्छी सड़ी गोबर खाद या केंचुआ खाद मिट्टी की संरचना, जल धारण क्षमता और पोषक तत्वों को बेहतर बनाती है। इसे बुआई से पहले डालकर मिट्टी में मिलाएँ। फसल अवशेष और गोबर को 2–3 महीने तक नम रखकर और बीच-बीच में पलटकर सस्ती और अच्छी खाद बनाई जा सकती है।"
+    },
+    {
+      "id": "crop_rotation",
+      "keywords": ["rotation", "which crop", "next crop", "intercrop", "फसल चक्र", "कौन सी फसल", "अगली फसल"],
+      "answer_en": "Rotating cereals with pulses (for example wheat after soybean, or rice followed by lentil or chickpea) improves soil nitrogen and breaks pest and disease cycles. Choose crops based on your soil test, water availability, season and local market demand. Use the Crop Recommendation page for a data-based suggestion.",
+      "answer_hi": "अनाज के साथ दलहन का फसल चक्र (जैसे सोयाबीन के बाद गेहूँ, या धान के बाद मसूर या चना) मिट्टी में नाइट्रोजन बढ़ाता है और कीट-रोग चक्र तोड़ता है। फसल का चुनाव मिट्टी जाँच, पानी की उपलब्धता, मौसम और स्थानीय बाजार माँग के आधार पर करें। डेटा आधारित सुझाव के लिए फसल सिफारिश पेज देखें।"
+    },
+    {
+      "id": "weather_spray",
+      "keywords": ["rain", "weather", "forecast", "heat", "frost", "बारिश", "मौसम", "गर्मी", "पाला"],
+      "answer_en": "Check the forecast before farm operations: postpone spraying and fertiliser application if rain is expected within 24 hours, keep drainage channels clear before heavy rain, irrigate lightly in the evening when frost is expected, and irrigate in the early morning during heat waves. See the Weather page for current conditions and alerts for your location.",
+      "answer_hi": "खेती के काम से पहले मौसम का पूर्वानुमान देखें: 24 घंटे में बारिश की संभावना हो तो छिड़काव और खाद डालना टालें, भारी बारिश से पहले नालियाँ साफ रखें, पाले की आशंका हो तो शाम को हल्की सिंचाई करें और लू के समय सुबह जल्दी सिंचाई करें। अपने स्थान के मौसम और चेतावनियों के लिए मौसम पेज देखें।"
+    },
+    {
+      "id": "schemes",
+      "keywords": ["scheme", "subsidy", "pm kisan", "insurance", "pmfby", "loan", "kcc", "योजना", "सब्सिडी", "बीमा", "किसान सम्मान", "ऋण"],
+      "answer_en": "Key central schemes include PM-KISAN (income support), PM Fasal Bima Yojana (crop insurance), Kisan Credit Card (short-term credit), Soil Health Card and PM Krishi Sinchayee Yojana (micro-irrigation). Eligibility and benefits change over time, so confirm details on the official portals or at your nearest Common Service Centre. See the Schemes page for links.",
+      "answer_hi": "मुख्य केंद्रीय योजनाएँ: पीएम-किसान (आय सहायता), प्रधानमंत्री फसल बीमा योजना, किसान क्रेडिट कार्ड (अल्पकालिक ऋण), मृदा स्वास्थ्य कार्ड और प्रधानमंत्री कृषि सिंचाई योजना (सूक्ष्म सिंचाई)। पात्रता और लाभ समय के साथ बदलते हैं, इसलिए आधिकारिक पोर्टल या नजदीकी कॉमन सर्विस सेंटर पर पुष्टि करें। लिंक के लिए योजनाएँ पेज देखें।"
+    },
+    {
+      "id": "helpline",
+      "keywords": ["helpline", "expert", "call", "contact", "kvk", "officer", "हेल्पलाइन", "विशेषज्ञ", "संपर्क", "अधिकारी"],
+      "answer_en": "For expert advice, call the Kisan Call Centre toll-free at 1800-180-1551 (available in local languages), or visit your district Krishi Vigyan Kendra (KVK) or agriculture department office.",
+      "answer_hi": "विशेषज्ञ सलाह के लिए किसान कॉल सेंटर के टोल-फ्री नंबर 1800-180-1551 पर कॉल करें (स्थानीय भाषाओं में उपलब्ध), या अपने जिले के कृषि विज्ञान केंद्र (KVK) या कृषि विभाग कार्यालय जाएँ।"
+    }
+  ]
+}
